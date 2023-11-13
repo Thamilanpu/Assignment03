@@ -1,0 +1,484 @@
+/* Section 1- Navbar Start */
+/* <Navbar> */
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+ 
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  background-color:white;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* position: fixed; */
+
+}
+.img0{
+
+  height: 3vh;
+  width: 2vw;
+
+}
+
+.logo {
+  font-size: 1.5em;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav-links li {
+  margin-right: 40px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.imgg{
+  width:20px;
+  height:20px;
+}
+.nav-links a:hover {
+  color:green; 
+}
+
+
+/* Section 1- Navbar End */
+
+/* Section 2 Start */
+
+
+.plant1{
+  /* border: black solid; */
+  height: 40vh;
+  padding: 2vh;
+}
+.sec1{
+  padding-top: 100px;
+  padding-bottom: 200px;
+ 
+  padding-left: 80px;
+}
+
+.img1{
+  padding: 10px;
+
+  height: 36vh;
+  width: 24vw;
+
+}
+.plant2{
+/* border: #111 solid; */
+height: 40vh;
+padding: 2vh;
+}
+.sec2{
+  padding-left: 150px;
+  padding-top: 100PX;
+  padding-bottom: 100PX;
+  padding-right: 100PX;
+ 
+}
+
+.img2{
+  padding: 10px;
+  padding-left: 60px;
+  height: 28vh;
+  width: 20vw;
+
+}
+
+ /* Section 2  End */
+
+
+/* Section 3 Start */
+.plant3{
+  padding: 10px;
+  /* border: black solid; */
+  height: 46vh;
+}
+
+.img3{
+  height: 42vh;
+  width: 32vw;
+
+}
+.sec3{
+  padding: 2vh;
+  height: 36vh;
+}
+.para5{
+ padding: 0%;
+}
+
+/* .check{
+   accent-color: darkgreen
+   ;
+} */
+.img4{
+  height: 2vh;
+  width: 1vw;
+}
+
+/* Section 3 End   */
+
+/* Section 4 - Image Gallery Start  */
+
+.plant4{
+  padding-top:70px ;
+  /* border: black solid; */
+ 
+}
+
+.head3{
+      text-align: center;
+    }
+  
+  
+  .ull{
+    
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    gap: 3vh;
+    font-size: 1.3em;
+  padding-left: 50vh;
+  padding-right: 40vh;
+
+  }
+  .pro{
+    text-align:center;
+    /* border:solid green; */
+    height: 4vh;
+    width: 15vh;
+   
+  }
+ 
+    
+    .img5{
+      height: 15vh;
+      width: 14vw;
+
+    }
+
+    .price {
+      color: green;
+      font-size: 22px;
+    }
+    
+    .checked {
+      color: orange;
+      height: 4vh;
+    }
+    
+  
+/* Section 4 - Image Gallery  End  */
+
+/* Section 5 - Frequent Question Section Start  */
+
+.questions {
+  /* background-color: #e0dede; */
+}
+
+.questions-group {
+  display: grid;
+  row-gap: 1.5rem;
+}
+.questions-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.questions-item {
+  /* background-color: #fff; */
+  border-radius: 0.25rem;
+}
+
+.questions-item-title {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.questions-icon {
+  font-size: 1.35rem;
+  color: #000;
+}
+
+.questions-description {
+  font-size: 1.8m;
+  padding: 0 1.25rem 1.25rem 2.5rem;
+}
+
+.questions-header {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+}
+
+.questions-content {
+  overflow: hidden;
+  height: 0;
+}
+
+.questions-item,
+.questions-header,
+.questions-item-title,
+.questions-icon,
+.questions-description,
+.questions-content {
+  transition: 0.3s;
+}
+
+.questions-item:hover {
+  box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+}
+
+.accordion-open .questions-header,
+.accordion-open .questions-content {
+  background-color: #10693d;
+}
+
+.accordion-open .questions-item-title,
+.accordion-open .questions-description,
+.accordion-open .questions-icon {
+  /* color: #fff; */
+}
+
+.accordion-open .questions-icon {
+  transform: rotate(45deg);
+}
+
+/* Section 5 - Frequent Question Section  End  */
+
+
+ /* Section 6 - Team Section  Start  */
+
+ .team{
+  /* border: black solid; */
+  height: 50vh;
+  padding-top: 10vh;
+
+}
+.client{
+background-color: rgb(29, 25, 25);
+text-align: center;
+/* padding-bottom: 40%;
+padding-left: 30%; */
+
+}
+
+
+.flex{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:2vh;
+
+  
+}
+
+.fl{
+  padding-left: 2vh;
+  padding-top: 2vh;
+  height: 22vh;
+  width: 28vh;
+  /* border: solid; */
+  /* background-color: white; */
+
+}
+
+.img6{
+  border-radius: 100%;
+/* padding-top: 10%;
+padding-left: 10%; */
+  width:25%;
+  
+}
+/* Section 6 - Team Section   End  */
+
+  /* Section 7 - When you click the contact us in the navbar, There are two section Start  */
+ 
+
+
+
+input[type=text] {
+width: 100%;
+padding: 12px;
+border-bottom: rgb(46, 44, 44) solid;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+/* text-decoration: underline; */
+}
+select, textarea {
+width: 100%;
+padding: 12px;
+/* border: 1px solid #ccc; */
+border-radius: 4px;
+box-sizing: border-box; 
+margin-top: 6px;
+margin-bottom: 10px;
+resize: vertical;
+
+}
+
+input[type=submit] {
+background-color: #0b8b2f;
+/* color: white; */
+float: right;
+/* text-align: end; */
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+
+}
+
+.contact {
+/* border: black solid; */
+border-radius: 5px;
+/* background-color: #f2f2f2; */
+padding : 20px;
+text-decoration: none;
+height: 36vh;
+}
+/* Section 7 - When you click the contact us in the navbar, There are two section End  */
+
+/* Section 8: Footer Start  */
+
+.cont{
+  padding-top: 6vh;
+  height: 26vh;
+  padding-bottom: 6vh;
+  border: black solid;  
+
+}
+
+.img9{
+  height: 3vh;
+  width: 2vw;
+}
+.sub{
+  justify-content: space-between;
+  /* background-color: rgba(230, 230, 234, 0.41); */
+  /* display: flex; */
+  /* padding: 0.75rem; */
+  /* border-radius: 0.5rem;  */
+  
+}
+.ema{
+
+}
+ .but{
+  padding-top: 2vh;
+  padding-left: 10vh;
+ }
+.email1{
+width: 60%;
+padding: 0 0.4rem; 
+border: none;
+}
+
+/* .address{
+  padding-left: 10vh;
+} */
+
+
+.add{
+display: block;
+
+}
+.add1{
+color: rgb(178, 173, 173);
+}
+.num{
+color: rgb(130, 124, 124);
+}
+.media {
+  text-decoration: none;
+	display: flex;
+  gap: 10px;
+  color: rgb(105, 104, 104);
+}
+
+.img11{
+  display: flex;
+  height: 3vh;
+  width: 3vw;
+  gap: 1vh;
+  text-decoration: none;
+}
+.mm{
+  display: flex;
+}
+
+.copy{
+  height: 20vh;
+}
+
+.copyright{
+  /* border: black solid; */
+  /* height: 70vh; */
+text-align: center;
+padding-top: 10vh;
+padding-bottom: 2vh;
+font-family: 'Courier New', Courier, monospace;
+color: rgb(170, 168, 168);
+
+}
+  /* Section 8: Footer End  */
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
