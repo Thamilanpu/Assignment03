@@ -24,21 +24,16 @@ onclick="myFunction()"
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
-
-  // Get the image element by its ID
-  var image = document.getElementById('modeIcon');
-
-  // Get the current source of the image
+  var image = document.getElementById('mode');
   var currentSrc = image.src;
-
-  // Check the current source and change it based on the mode
   if (currentSrc.includes('moon(dark)')) {
-      // If it's in dark mode, switch to light mode image
+
       image.src = './assets/images/brightness-high.svg';
   } else {
-      // If it's in light mode, switch to dark mode image
+
       image.src = './assets/images/moon.svg';
   }
+  
 }
 
 
